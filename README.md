@@ -15,6 +15,8 @@ The meat of the repository is the <a href="ml-agents-master/python/test1.py">tes
 3. In the terminal, navigate to the python/ folder located in the ml-agents-master/ folder.
 4. Once inside the python/ folder, run the command 'pip3 install .' (don't forget the period) to install everything you need for this tutorial.
 
+<br/>
+
 <b>Unity</b>
 
 5. Now that the installs are complete, open the Unity editor and create a new project.
@@ -27,6 +29,8 @@ The meat of the repository is the <a href="ml-agents-master/python/test1.py">tes
 11. Now, in the inspector, make sure Brain Type is set to 'External'. This is important for your python script to interact with the Unity brain.
 12. Finally, go to File -> Build Settings. Select the intended Platform (most likely PC, Mac & Linux Standalone) and select a Taget Platform and Architecture in the dropdown menus. Then hit Build, give it a name, and set the location to the same python/ folder from above, located in the ml-agents-master/ folder. The location is important so make sure this step is done correctly.
 
+<br/>
+
 <b>Run</b>
 
 13. Once the build is successful, navigate back to the python/ folder, again, located in the ml-agents-master/ folder.
@@ -34,6 +38,8 @@ The meat of the repository is the <a href="ml-agents-master/python/test1.py">tes
 15. The first line should say something like 'env_name = "unity_executable"'. Replace the 'unity_executable' within the double quotes with the name of the Unity executable you just built. Note, you do NOT need the include the .extention with the name.
 16. Also note that, if you were following along correctly, the <a href="ml-agents-master/python/test1.py">test1.py</a> and the Unity executable you just built, are in the same folder. This is important or the script will not be able to find the Unity executable. (unless you specify the correct path youreslf)
 17. Last but not least, while still in the python/ folder, again, located in the ml-agents-master/ folder, run 'python3 test1.py' in the terminal.
+
+<br/>
 
 # That's it!
 
