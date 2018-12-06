@@ -6,6 +6,8 @@ This tutorial uses an older version of Unity ML-Agents. These steps may not work
 
 The meat of the repository is the <a href="ml-agents-master/python/test1.py">test1.py</a> file located in the ml-agents-master/python/ folder. If you're just interested in how python interacts with Unity in the simplest of examples, check out this file. Else, continue with the setup process to get everything up and running. Keep in mind, this python script will not work alone.
 
+<br/>
+
 # Setup
 
 <b>Install</b>
