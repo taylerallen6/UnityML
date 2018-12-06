@@ -21,19 +21,19 @@ The meat of the repository is the <a href="ml-agents-master/python/test1.py">tes
 6. Once open, go to Edit -> Project Settings -> Player. Then, in the inspector, under 'Other Settings', make sure that Scripting Runtime Version is set to '.NET 4.x Equivalent'.
 7. This should prompt you to restart the Unity editor. Do so and continue.
 8. In your file explorer (or terminal), locate the ML-Agents/ folder in the ml-agents-master/unity-environment/Assets/ folder. Once found, copy the ML-Agents/ folder to the Assets/ folder of your new Untiy project.
-10. In the Unity editor (REMEMBER, this is now in the Unity editor, not your terminal or file explorer), navigate to the 3DBall/ folder located in the Assets/ML-Agents/Examples/ folder. Once in the 3DBall/ folder, double click the 3DBall.unity object to the open the 3DBall environment in the hierarchy.
+9. In the Unity editor (REMEMBER, this is now in the Unity editor, not your terminal or file explorer), navigate to the 3DBall/ folder located in the Assets/ML-Agents/Examples/ folder. Once in the 3DBall/ folder, double click the 3DBall.unity object to the open the 3DBall environment in the hierarchy.
 
-12. In the project Hierarchy, select the Ball3DBrain object within the Ball3DAcademy object.
-13. Now, in the inspector, make sure Brain Type is set to 'External'. This is important for your python script to interact with the Unity brain.
-14. Finally, go to File -> Build Settings. Select the intended Platform (most likely PC, Mac & Linux Standalone) and select a Taget Platform and Architecture in the dropdown menus. Then hit Build, give it a name, and set the location to the same python/ folder from above, located in the ml-agents-master/ folder. The location is important so make sure this step is done correctly.
+10. In the project Hierarchy, select the Ball3DBrain object within the Ball3DAcademy object.
+11. Now, in the inspector, make sure Brain Type is set to 'External'. This is important for your python script to interact with the Unity brain.
+12. Finally, go to File -> Build Settings. Select the intended Platform (most likely PC, Mac & Linux Standalone) and select a Taget Platform and Architecture in the dropdown menus. Then hit Build, give it a name, and set the location to the same python/ folder from above, located in the ml-agents-master/ folder. The location is important so make sure this step is done correctly.
 
 <b>Run</b>
 
-15. Once the build is successful, navigate back to the python/ folder, again, located in the ml-agents-master/ folder.
-16. There you will find a python file named <a href="ml-agents-master/python/test1.py">test1.py</a>. This is the script that contains the bare-necessities needed to connect your python AI with Unity. Open the <a href="ml-agents-master/python/test1.py">test1.py</a> file in any text editor.
-17. The first line should say something like 'env_name = "unity_executable"'. Replace the 'unity_executable' within the double quotes with the name of the Unity executable you just built. Note, you do NOT need the include the .extention with the name.
-18. Also note that, if you were following along correctly, the <a href="ml-agents-master/python/test1.py">test1.py</a> and the Unity executable you just built, are in the same folder. This is important or the script will not be able to find the Unity executable. (unless you specify the correct path youreslf)
-19. Last but not least, while still in the python/ folder, again, located in the ml-agents-master/ folder, run 'python3 test1.py' in the terminal.
+13. Once the build is successful, navigate back to the python/ folder, again, located in the ml-agents-master/ folder.
+14. There you will find a python file named <a href="ml-agents-master/python/test1.py">test1.py</a>. This is the script that contains the bare-necessities needed to connect your python AI with Unity. Open the <a href="ml-agents-master/python/test1.py">test1.py</a> file in any text editor.
+15. The first line should say something like 'env_name = "unity_executable"'. Replace the 'unity_executable' within the double quotes with the name of the Unity executable you just built. Note, you do NOT need the include the .extention with the name.
+16. Also note that, if you were following along correctly, the <a href="ml-agents-master/python/test1.py">test1.py</a> and the Unity executable you just built, are in the same folder. This is important or the script will not be able to find the Unity executable. (unless you specify the correct path youreslf)
+17. Last but not least, while still in the python/ folder, again, located in the ml-agents-master/ folder, run 'python3 test1.py' in the terminal.
 
 <b>That's it!</b>
 
