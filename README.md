@@ -35,9 +35,9 @@ The meat of the repository is the <a href="ml-agents-master/python/test1.py">tes
 16. Also note that, if you were following along correctly, the <a href="ml-agents-master/python/test1.py">test1.py</a> and the Unity executable you just built, are in the same folder. This is important or the script will not be able to find the Unity executable. (unless you specify the correct path youreslf)
 17. Last but not least, while still in the python/ folder, again, located in the ml-agents-master/ folder, run 'python3 test1.py' in the terminal.
 
-<b>That's it!</b>
+# That's it!
 
 A small window should open and run the Unity environment for 20 episodes and close. The terminal will show a few details as well.
 
 
-# More details explaining the python code within the script itself are soon to come...
+<b>More details explaining the python code within the script itself are soon to come...</b>
