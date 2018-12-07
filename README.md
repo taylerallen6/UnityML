@@ -1,10 +1,12 @@
 # UnityML
 
-This code is the bare necessity needed to connect to a UnityML agent.
+This code is the bare necessity needed to connect to a Unity ML agent.
 
-This tutorial uses an older version of Unity ML-Agents. These steps may not work with the most recent version of ML-Agents. For that, it is recommended that you use the version in the repository. It is also recommended that you create a virtual environment for this project. This will give you a clean slate for the installing the packages. If you do not use a virtual environment and you have already installed a version of unityagents, it may not work with tutorial.
+It is important to note, this code is from The <a href="https://github.com/Unity-Technologies/ml-agents">Unity ML-Agents</a> repository. The difference is the added <a href="ml-agents-master/python/test1.py">test1.py</a> file which is a script I stitched together from their tutorials. The script connects to a Unity environment, retrieves input and reward data, and sends output data back to the Unity environment to be performed. As is, when the script is run, a small dislay for the unity environment will open and a few iteration will be ran taking random actions. Then the display window will close. These random actions represent the decisions of a python AI and should be replaced by your own python AI's decision making function. More will be discussed of the script itself later.
 
-The meat of the repository is the <a href="ml-agents-master/python/test1.py">test1.py</a> file located in the ml-agents-master/python/ folder. If you're just interested in how python interacts with Unity in the simplest of examples, check out this file. Else, continue with the setup process to get everything up and running. Keep in mind, this python script will not work alone.
+This tutorial uses an older version of <a href="https://github.com/Unity-Technologies/ml-agents">Unity ML-Agents</a>. These steps may not work with the most recent version of <a href="https://github.com/Unity-Technologies/ml-agents">ML-Agents</a>. For that, it is recommended that you use the version in the repository. It is also recommended that you create a virtual environment for this project. This will give you a clean slate for the installing the packages. If you do not use a virtual environment and you have already installed a version of unityagents, it may not work with tutorial.
+
+The meat of this repository is the <a href="ml-agents-master/python/test1.py">test1.py</a> file located in the ml-agents-master/python/ folder. If you're just interested in how python interacts with Unity in the simplest of examples, check out this file. Else, continue with the setup process to get everything up and running. Keep in mind, this python script will not work alone.
 
 <br/>
 
